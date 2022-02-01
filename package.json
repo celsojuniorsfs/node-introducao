@@ -1,0 +1,24 @@
+{
+  "name": "hcode-node",
+  "version": "1.0.0",
+  "description": "Este projeto é um projeto introdutorio a respeito do nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "test": "echo Fazendo testes",
+    "prebuild": "npm test",
+    "build": "echo BUILD do projeto",
+    "postbuild": "echo subindo projeto no github",
+    "start": "node index"
+  },
+  "keywords": [
+    "hcode",
+    "node",
+    "nodejs"
+  ],
+  "author": "Hcode Treinamentos",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
